@@ -4,6 +4,10 @@
     padding-bottom: 120px;
 }
 
+.team-content {
+    padding: 32px 0;
+}
+
 .team-title {
     text-align: center;
     font-size: 36px;

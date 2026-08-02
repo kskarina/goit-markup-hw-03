@@ -5,10 +5,13 @@
 
 .container-header {
     display: flex;
-    height: 72px;
-    justify-content: space-between;
     align-items: center;
+}
 
+
+
+nav {
+    margin-right: auto;
 }
 
 .header-nav-list {
@@ -17,21 +20,27 @@
 }
 
 .logo {
+    margin-right: 76px;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.33;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2e2f42;
 }
 
-.logo span {
+.logo {
     color: #4d5ae5;
 }
 
+.logo-part {
+    color: #2e2f42;
+}
+
 .nav-link {
-    text-decoration: none;
+    display: block;
+    padding: 24px 0;
     color: #2E2F42;
     font-size: 16px;
     line-height: 1.5;
@@ -63,7 +72,6 @@
     list-style: none;
 }
 
-address {
+.address {
     font-style: normal;
-
 }
