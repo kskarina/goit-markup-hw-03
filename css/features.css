@@ -1,6 +1,7 @@
 .features {
     padding-top: 120px;
     padding-bottom: 120px;
+
 }
 
 .features-list {
@@ -15,6 +16,7 @@
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    margin-bottom: 8px;
 }
 
 .features-text {
