@@ -1,52 +1,40 @@
-.team {
-    background-color: #F4F4FD;
-    padding-top: 120px;
-    padding-bottom: 120px;
+.team-section {
+    background-color: #f4f4fd;
 }
 
-.team-content {
-    padding: 32px 0;
+.team-section .container {
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
 }
 
-.team-title {
-    text-align: center;
+.team-list .team-card {
+    background-color: #ffff;
+    border-radius: 0 0 4px 4px;
+}
+
+.team-section .team-title {
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-    margin-bottom: 72px;
+    text-align: center;
+}
+
+.team-section .team-name,
+.team-section .team-role {
+    text-align: center;
 }
 
 .team-list {
     display: flex;
+    align-items: flex-start;
     gap: 24px;
-    list-style: none;
+    margin: 0;
 }
 
-.team-item {
-    background-color: #FFFFFF;
-    border-radius: 0 0 4px 4px;
-    width: 264px;
-    padding-bottom: 32px;
-    box-shadow: 0 2px 1px rgba(46, 47, 66, 0.08),
-        0 1px 1px rgba(46, 47, 66, 0.16);
-}
-
-.team-name {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2E2F42;
-    margin-top: 32px;
-    margin-bottom: 8px;
-}
-
-.team-position {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-    text-align: center;
+.team-card-content {
+    padding: 32px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
